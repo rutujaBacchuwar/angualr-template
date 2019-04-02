@@ -4,9 +4,14 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-server',
   template: `
   <app-servers></app-servers>
+  <h1> In angular project </h1>
   <app-servers></app-servers>
   `,
-  styleUrls: ['./server.component.css']
+  styles: [`
+  h1{
+    color: blue;
+  }
+  `]
 })
 export class ServerComponent implements OnInit {
 
